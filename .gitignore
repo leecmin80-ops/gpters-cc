@@ -1,0 +1,32 @@
+.DS_Store
+**/.DS_Store
+
+# Local runtime/session state
+.omc/state/
+**/.omc/state/
+.claude/local/
+.playwright-mcp/
+.kkirikkiri/
+progress.json
+
+# Internal planning material, not for student distribution
+_*/
+_*.md
+sources/
+
+# Dependency and build caches
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+
+# Editor-local files
+*.code-workspace
